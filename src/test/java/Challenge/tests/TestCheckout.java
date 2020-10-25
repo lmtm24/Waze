@@ -7,9 +7,7 @@ import Challenge.pages.ShoppingCartPage;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
 
-import java.util.concurrent.TimeUnit;
 
 public class TestCheckout extends BaseTest{
 

@@ -25,7 +25,7 @@ public class TestLogin extends BaseTest{
         loginPage.typeValidUsername(validUserName);
         loginPage.typePassword(password);
         loginPage.clickLogin();
-        Assert.assertEquals("Products",loginPage.validateSuccessLogin());
+        Assert.assertEquals("Produfffcts",loginPage.validateSuccessLogin());
     }
     @Test
     public void testInvalidUser(){
