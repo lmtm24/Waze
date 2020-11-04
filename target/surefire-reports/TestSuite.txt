@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 7.202 sec <<< FAILURE!
+ValidatePurchaseCompleted(Challenge.tests.TestCheckout)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestCheckout.ValidatePurchaseCompleted(TestCheckout.java:94)
+
+validateItemsAddedInOverview(Challenge.tests.TestCheckout)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestCheckout.validateItemsAddedInOverview(TestCheckout.java:74)
+
+validateMissingZipCode(Challenge.tests.TestCheckout)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestCheckout.validateMissingZipCode(TestCheckout.java:40)
+
+validateOverviewNavigation(Challenge.tests.TestCheckout)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestCheckout.validateOverviewNavigation(TestCheckout.java:58)
+
+testInvalidUser(Challenge.tests.TestLogin)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeInvalidUsername(LoginPage.java:34)
+	at Challenge.tests.TestLogin.testInvalidUser(TestLogin.java:32)
+
+testLogoutProductsPage(Challenge.tests.TestLogin)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestLogin.testLogoutProductsPage(TestLogin.java:39)
+
+testValidUser(Challenge.tests.TestLogin)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestLogin.testValidUser(TestLogin.java:23)
+
+testShoppingCartNavigation(Challenge.tests.TestShoppingCart)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestShoppingCart.testShoppingCartNavigation(TestShoppingCart.java:30)
+
+validateShoppingCartMultipleItems(Challenge.tests.TestShoppingCart)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestShoppingCart.validateShoppingCartMultipleItems(TestShoppingCart.java:49)
+
+validateShoppingCartSingleItem(Challenge.tests.TestShoppingCart)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestShoppingCart.validateShoppingCartSingleItem(TestShoppingCart.java:39)
+

@@ -3,9 +3,9 @@ package Challenge.tests;
 import Challenge.pages.LoginPage;
 import Challenge.pages.ProductsPage;
 import Challenge.pages.ShoppingCartPage;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 
 public class TestShoppingCart extends BaseTest {
@@ -17,7 +17,7 @@ public class TestShoppingCart extends BaseTest {
     String password="secret_sauce";
     String backpack = "Sauce Labs Backpack";
 
-    @Before
+    @BeforeTest
     public void setup(){
         loginPage = new LoginPage(driver);
         shoppingCartPage = new ShoppingCartPage(driver);
@@ -32,6 +32,7 @@ public class TestShoppingCart extends BaseTest {
         loginPage.clickLogin();
         productsPage.clickShoppingCartButton();
         Assert.assertEquals(message,shoppingCartPage.getShoppingCartText());
+
     }
     @Test
     public void validateShoppingCartSingleItem() throws InterruptedException {

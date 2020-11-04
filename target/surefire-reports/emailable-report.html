@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">10</td><td class="num">5,649</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">Challenge.tests.TestCheckout</td><td><a href="#m0">ValidatePurchaseCompleted</a></td><td rowspan="1">1604453111170</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m1">validateItemsAddedInOverview</a></td><td rowspan="1">1604453111174</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m2">validateMissingZipCode</a></td><td rowspan="1">1604453111176</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m3">validateOverviewNavigation</a></td><td rowspan="1">1604453111177</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="3">Challenge.tests.TestLogin</td><td><a href="#m4">testInvalidUser</a></td><td rowspan="1">1604453111179</td><td rowspan="1">0</td></tr><tr class="failedodd"><td><a href="#m5">testLogoutProductsPage</a></td><td rowspan="1">1604453111180</td><td rowspan="1">1</td></tr><tr class="failedodd"><td><a href="#m6">testValidUser</a></td><td rowspan="1">1604453111182</td><td rowspan="1">0</td></tr><tr class="failedeven"><td rowspan="3">Challenge.tests.TestShoppingCart</td><td><a href="#m7">testShoppingCartNavigation</a></td><td rowspan="1">1604453111184</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m8">validateShoppingCartMultipleItems</a></td><td rowspan="1">1604453111185</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m9">validateShoppingCartSingleItem</a></td><td rowspan="1">1604453111188</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Command line test</h2><h3 id="m0">Challenge.tests.TestCheckout#ValidatePurchaseCompleted</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestCheckout.ValidatePurchaseCompleted(TestCheckout.java:94)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Challenge.tests.TestCheckout#validateItemsAddedInOverview</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestCheckout.validateItemsAddedInOverview(TestCheckout.java:74)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Challenge.tests.TestCheckout#validateMissingZipCode</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestCheckout.validateMissingZipCode(TestCheckout.java:40)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Challenge.tests.TestCheckout#validateOverviewNavigation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestCheckout.validateOverviewNavigation(TestCheckout.java:58)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Challenge.tests.TestLogin#testInvalidUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeInvalidUsername(LoginPage.java:34)
+	at Challenge.tests.TestLogin.testInvalidUser(TestLogin.java:32)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Challenge.tests.TestLogin#testLogoutProductsPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestLogin.testLogoutProductsPage(TestLogin.java:39)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Challenge.tests.TestLogin#testValidUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestLogin.testValidUser(TestLogin.java:23)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Challenge.tests.TestShoppingCart#testShoppingCartNavigation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestShoppingCart.testShoppingCartNavigation(TestShoppingCart.java:30)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Challenge.tests.TestShoppingCart#validateShoppingCartMultipleItems</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestShoppingCart.validateShoppingCartMultipleItems(TestShoppingCart.java:49)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Challenge.tests.TestShoppingCart#validateShoppingCartSingleItem</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at Challenge.pages.BasePage.type(BasePage.java:16)
+	at Challenge.pages.LoginPage.typeValidUsername(LoginPage.java:22)
+	at Challenge.tests.TestShoppingCart.validateShoppingCartSingleItem(TestShoppingCart.java:39)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

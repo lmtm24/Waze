@@ -4,9 +4,9 @@ import Challenge.pages.CheckoutPage;
 import Challenge.pages.LoginPage;
 import Challenge.pages.ProductsPage;
 import Challenge.pages.ShoppingCartPage;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 
 public class TestCheckout extends BaseTest{
@@ -25,7 +25,8 @@ public class TestCheckout extends BaseTest{
 
 
 
-    @Before
+
+    @BeforeTest
     public void setup(){
         loginPage = new LoginPage(driver);
         productsPage = new ProductsPage(driver);
@@ -47,6 +48,8 @@ public class TestCheckout extends BaseTest{
         checkoutPage.typeLastName(lastName);
         checkoutPage.clickContinueButton();
         Assert.assertEquals(error,checkoutPage.getPostalCodeValidationMessage());
+
+
     }
 
     @Test

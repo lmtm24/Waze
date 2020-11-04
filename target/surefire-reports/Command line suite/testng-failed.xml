@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="Challenge.tests.TestShoppingCart">
+        <methods>
+          <include name="setup"/>
+          <include name="validateShoppingCartSingleItem"/>
+          <include name="baseSetup"/>
+          <include name="validateShoppingCartMultipleItems"/>
+          <include name="baseTearDown"/>
+          <include name="testShoppingCartNavigation"/>
+        </methods>
+      </class> <!-- Challenge.tests.TestShoppingCart -->
+      <class name="Challenge.tests.TestCheckout">
+        <methods>
+          <include name="validateMissingZipCode"/>
+          <include name="validateOverviewNavigation"/>
+          <include name="validateItemsAddedInOverview"/>
+          <include name="baseSetup"/>
+          <include name="ValidatePurchaseCompleted"/>
+          <include name="setup"/>
+          <include name="baseTearDown"/>
+        </methods>
+      </class> <!-- Challenge.tests.TestCheckout -->
+      <class name="Challenge.tests.TestLogin">
+        <methods>
+          <include name="testInvalidUser"/>
+          <include name="setup"/>
+          <include name="testValidUser"/>
+          <include name="baseSetup"/>
+          <include name="baseTearDown"/>
+          <include name="testLogoutProductsPage"/>
+        </methods>
+      </class> <!-- Challenge.tests.TestLogin -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

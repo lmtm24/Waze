@@ -1,0 +1,9 @@
+Challenge\pages\ProductsPage.class
+Challenge\pages\BasePage.class
+Challenge\tests\TestLogin.class
+Challenge\tests\TestShoppingCart.class
+Challenge\pages\CheckoutPage.class
+Challenge\tests\BaseTest.class
+Challenge\tests\TestCheckout.class
+Challenge\pages\LoginPage.class
+Challenge\pages\ShoppingCartPage.class

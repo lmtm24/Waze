@@ -1,11 +1,9 @@
 package Challenge.tests;
 
 import Challenge.pages.LoginPage;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
@@ -14,7 +12,7 @@ public class TestLogin extends BaseTest{
     LoginPage loginPage;
     String password = "secret_sauce", validUserName = "standard_user";
 
-    @Before
+    @BeforeTest
     public void setup(){
         loginPage = new LoginPage(driver);
     }
@@ -25,7 +23,8 @@ public class TestLogin extends BaseTest{
         loginPage.typeValidUsername(validUserName);
         loginPage.typePassword(password);
         loginPage.clickLogin();
-        Assert.assertEquals("Produfffcts",loginPage.validateSuccessLogin());
+        Assert.assertEquals("Products",loginPage.validateSuccessLogin());
+
     }
     @Test
     public void testInvalidUser(){
